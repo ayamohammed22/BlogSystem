@@ -1,0 +1,15 @@
+E:\NET\Blog_System\PlogSystem\ServiceLayer_BlogSystem\bin\Debug\net8.0\ServiceLayer_BlogSystem.deps.json
+E:\NET\Blog_System\PlogSystem\ServiceLayer_BlogSystem\bin\Debug\net8.0\ServiceLayer_BlogSystem.dll
+E:\NET\Blog_System\PlogSystem\ServiceLayer_BlogSystem\bin\Debug\net8.0\ServiceLayer_BlogSystem.pdb
+E:\NET\Blog_System\PlogSystem\ServiceLayer_BlogSystem\obj\Debug\net8.0\ServiceLayer_BlogSystem.GeneratedMSBuildEditorConfig.editorconfig
+E:\NET\Blog_System\PlogSystem\ServiceLayer_BlogSystem\obj\Debug\net8.0\ServiceLayer_BlogSystem.AssemblyInfoInputs.cache
+E:\NET\Blog_System\PlogSystem\ServiceLayer_BlogSystem\obj\Debug\net8.0\ServiceLayer_BlogSystem.AssemblyInfo.cs
+E:\NET\Blog_System\PlogSystem\ServiceLayer_BlogSystem\obj\Debug\net8.0\ServiceLayer_BlogSystem.csproj.CoreCompileInputs.cache
+E:\NET\Blog_System\PlogSystem\ServiceLayer_BlogSystem\obj\Debug\net8.0\ServiceLayer_BlogSystem.dll
+E:\NET\Blog_System\PlogSystem\ServiceLayer_BlogSystem\obj\Debug\net8.0\refint\ServiceLayer_BlogSystem.dll
+E:\NET\Blog_System\PlogSystem\ServiceLayer_BlogSystem\obj\Debug\net8.0\ServiceLayer_BlogSystem.pdb
+E:\NET\Blog_System\PlogSystem\ServiceLayer_BlogSystem\obj\Debug\net8.0\ref\ServiceLayer_BlogSystem.dll
+E:\NET\Blog_System\PlogSystem\ServiceLayer_BlogSystem\bin\Debug\net8.0\CoreLayer_BlogSystem.dll
+E:\NET\Blog_System\PlogSystem\ServiceLayer_BlogSystem\bin\Debug\net8.0\CoreLayer_BlogSystem.pdb
+E:\NET\Blog_System\PlogSystem\ServiceLayer_BlogSystem\obj\Debug\net8.0\ServiceLayer_BlogSystem.csproj.AssemblyReference.cache
+E:\NET\Blog_System\PlogSystem\ServiceLayer_BlogSystem\obj\Debug\net8.0\ServiceL.A54EF642.Up2Date
