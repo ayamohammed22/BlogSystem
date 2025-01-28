@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\NET\\Blog_System\\PlogSystem\\API_PlogSystem\\API_BlogSystem.csproj": {}
+    "E:\\NET\\Blog_System\\BlogSystem\\API_PlogSystem\\API_BlogSystem.csproj": {}
   },
   "projects": {
-    "E:\\NET\\Blog_System\\PlogSystem\\API_PlogSystem\\API_BlogSystem.csproj": {
+    "E:\\NET\\Blog_System\\BlogSystem\\API_PlogSystem\\API_BlogSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\NET\\Blog_System\\PlogSystem\\API_PlogSystem\\API_BlogSystem.csproj",
+        "projectUniqueName": "E:\\NET\\Blog_System\\BlogSystem\\API_PlogSystem\\API_BlogSystem.csproj",
         "projectName": "API_BlogSystem",
-        "projectPath": "E:\\NET\\Blog_System\\PlogSystem\\API_PlogSystem\\API_BlogSystem.csproj",
+        "projectPath": "E:\\NET\\Blog_System\\BlogSystem\\API_PlogSystem\\API_BlogSystem.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "E:\\NET\\Blog_System\\PlogSystem\\API_PlogSystem\\obj\\",
+        "outputPath": "E:\\NET\\Blog_System\\BlogSystem\\API_PlogSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,14 +29,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\NET\\Blog_System\\PlogSystem\\CoreLayer_PlogSystem\\CoreLayer_BlogSystem.csproj": {
-                "projectPath": "E:\\NET\\Blog_System\\PlogSystem\\CoreLayer_PlogSystem\\CoreLayer_BlogSystem.csproj"
+              "E:\\NET\\Blog_System\\BlogSystem\\CoreLayer_PlogSystem\\CoreLayer_BlogSystem.csproj": {
+                "projectPath": "E:\\NET\\Blog_System\\BlogSystem\\CoreLayer_PlogSystem\\CoreLayer_BlogSystem.csproj"
               },
-              "E:\\NET\\Blog_System\\PlogSystem\\RepositaryLayer_BlogSystem\\RepositaryLayer_BlogSystem.csproj": {
-                "projectPath": "E:\\NET\\Blog_System\\PlogSystem\\RepositaryLayer_BlogSystem\\RepositaryLayer_BlogSystem.csproj"
+              "E:\\NET\\Blog_System\\BlogSystem\\RepositaryLayer_BlogSystem\\RepositaryLayer_BlogSystem.csproj": {
+                "projectPath": "E:\\NET\\Blog_System\\BlogSystem\\RepositaryLayer_BlogSystem\\RepositaryLayer_BlogSystem.csproj"
               },
-              "E:\\NET\\Blog_System\\PlogSystem\\ServiceLayer_BlogSystem\\ServiceLayer_BlogSystem.csproj": {
-                "projectPath": "E:\\NET\\Blog_System\\PlogSystem\\ServiceLayer_BlogSystem\\ServiceLayer_BlogSystem.csproj"
+              "E:\\NET\\Blog_System\\BlogSystem\\ServiceLayer_BlogSystem\\ServiceLayer_BlogSystem.csproj": {
+                "projectPath": "E:\\NET\\Blog_System\\BlogSystem\\ServiceLayer_BlogSystem\\ServiceLayer_BlogSystem.csproj"
               }
             }
           }
@@ -90,14 +90,14 @@
         }
       }
     },
-    "E:\\NET\\Blog_System\\PlogSystem\\CoreLayer_PlogSystem\\CoreLayer_BlogSystem.csproj": {
+    "E:\\NET\\Blog_System\\BlogSystem\\CoreLayer_PlogSystem\\CoreLayer_BlogSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\NET\\Blog_System\\PlogSystem\\CoreLayer_PlogSystem\\CoreLayer_BlogSystem.csproj",
+        "projectUniqueName": "E:\\NET\\Blog_System\\BlogSystem\\CoreLayer_PlogSystem\\CoreLayer_BlogSystem.csproj",
         "projectName": "CoreLayer_BlogSystem",
-        "projectPath": "E:\\NET\\Blog_System\\PlogSystem\\CoreLayer_PlogSystem\\CoreLayer_BlogSystem.csproj",
+        "projectPath": "E:\\NET\\Blog_System\\BlogSystem\\CoreLayer_PlogSystem\\CoreLayer_BlogSystem.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "E:\\NET\\Blog_System\\PlogSystem\\CoreLayer_PlogSystem\\obj\\",
+        "outputPath": "E:\\NET\\Blog_System\\BlogSystem\\CoreLayer_PlogSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -163,14 +163,14 @@
         }
       }
     },
-    "E:\\NET\\Blog_System\\PlogSystem\\RepositaryLayer_BlogSystem\\RepositaryLayer_BlogSystem.csproj": {
+    "E:\\NET\\Blog_System\\BlogSystem\\RepositaryLayer_BlogSystem\\RepositaryLayer_BlogSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\NET\\Blog_System\\PlogSystem\\RepositaryLayer_BlogSystem\\RepositaryLayer_BlogSystem.csproj",
+        "projectUniqueName": "E:\\NET\\Blog_System\\BlogSystem\\RepositaryLayer_BlogSystem\\RepositaryLayer_BlogSystem.csproj",
         "projectName": "RepositaryLayer_BlogSystem",
-        "projectPath": "E:\\NET\\Blog_System\\PlogSystem\\RepositaryLayer_BlogSystem\\RepositaryLayer_BlogSystem.csproj",
+        "projectPath": "E:\\NET\\Blog_System\\BlogSystem\\RepositaryLayer_BlogSystem\\RepositaryLayer_BlogSystem.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "E:\\NET\\Blog_System\\PlogSystem\\RepositaryLayer_BlogSystem\\obj\\",
+        "outputPath": "E:\\NET\\Blog_System\\BlogSystem\\RepositaryLayer_BlogSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -188,8 +188,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\NET\\Blog_System\\PlogSystem\\CoreLayer_PlogSystem\\CoreLayer_BlogSystem.csproj": {
-                "projectPath": "E:\\NET\\Blog_System\\PlogSystem\\CoreLayer_PlogSystem\\CoreLayer_BlogSystem.csproj"
+              "E:\\NET\\Blog_System\\BlogSystem\\CoreLayer_PlogSystem\\CoreLayer_BlogSystem.csproj": {
+                "projectPath": "E:\\NET\\Blog_System\\BlogSystem\\CoreLayer_PlogSystem\\CoreLayer_BlogSystem.csproj"
               }
             }
           }
@@ -209,6 +209,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[8.0.12, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.11, )"
@@ -238,14 +242,14 @@
         }
       }
     },
-    "E:\\NET\\Blog_System\\PlogSystem\\ServiceLayer_BlogSystem\\ServiceLayer_BlogSystem.csproj": {
+    "E:\\NET\\Blog_System\\BlogSystem\\ServiceLayer_BlogSystem\\ServiceLayer_BlogSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\NET\\Blog_System\\PlogSystem\\ServiceLayer_BlogSystem\\ServiceLayer_BlogSystem.csproj",
+        "projectUniqueName": "E:\\NET\\Blog_System\\BlogSystem\\ServiceLayer_BlogSystem\\ServiceLayer_BlogSystem.csproj",
         "projectName": "ServiceLayer_BlogSystem",
-        "projectPath": "E:\\NET\\Blog_System\\PlogSystem\\ServiceLayer_BlogSystem\\ServiceLayer_BlogSystem.csproj",
+        "projectPath": "E:\\NET\\Blog_System\\BlogSystem\\ServiceLayer_BlogSystem\\ServiceLayer_BlogSystem.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "E:\\NET\\Blog_System\\PlogSystem\\ServiceLayer_BlogSystem\\obj\\",
+        "outputPath": "E:\\NET\\Blog_System\\BlogSystem\\ServiceLayer_BlogSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -263,8 +267,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\NET\\Blog_System\\PlogSystem\\CoreLayer_PlogSystem\\CoreLayer_BlogSystem.csproj": {
-                "projectPath": "E:\\NET\\Blog_System\\PlogSystem\\CoreLayer_PlogSystem\\CoreLayer_BlogSystem.csproj"
+              "E:\\NET\\Blog_System\\BlogSystem\\RepositaryLayer_BlogSystem\\RepositaryLayer_BlogSystem.csproj": {
+                "projectPath": "E:\\NET\\Blog_System\\BlogSystem\\RepositaryLayer_BlogSystem\\RepositaryLayer_BlogSystem.csproj"
               }
             }
           }

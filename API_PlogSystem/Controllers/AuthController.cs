@@ -8,13 +8,13 @@ using Microsoft.AspNetCore.Mvc;
 namespace API_BlogSystem.Controllers
 {
    
-    public class AccountController : APIBaseController
+    public class AuthController : APIBaseController
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly ITokenServices _tokenServices;
 
         private readonly SignInManager<AppUser> _signInManager;
-        public AccountController(UserManager<AppUser> userManager , ITokenServices tokenServices ,
+        public AuthController(UserManager<AppUser> userManager , ITokenServices tokenServices ,
                                  SignInManager<AppUser> signInManager)
         {
             _userManager = userManager;

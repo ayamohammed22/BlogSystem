@@ -2214,11 +2214,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\NET\\Blog_System\\PlogSystem\\CoreLayer_PlogSystem\\CoreLayer_BlogSystem.csproj",
+      "projectUniqueName": "E:\\NET\\Blog_System\\BlogSystem\\CoreLayer_PlogSystem\\CoreLayer_BlogSystem.csproj",
       "projectName": "CoreLayer_BlogSystem",
-      "projectPath": "E:\\NET\\Blog_System\\PlogSystem\\CoreLayer_PlogSystem\\CoreLayer_BlogSystem.csproj",
+      "projectPath": "E:\\NET\\Blog_System\\BlogSystem\\CoreLayer_PlogSystem\\CoreLayer_BlogSystem.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "E:\\NET\\Blog_System\\PlogSystem\\CoreLayer_PlogSystem\\obj\\",
+      "outputPath": "E:\\NET\\Blog_System\\BlogSystem\\CoreLayer_PlogSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",

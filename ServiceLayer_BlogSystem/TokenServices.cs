@@ -29,12 +29,12 @@ namespace ServiceLayer_BlogSystem
                new Claim (ClaimTypes.Name , user.UserName), 
                new Claim (ClaimTypes.Email , user.Email)
              };
-            var UserRole = await userManager.GetRolesAsync(user);
-            foreach (var Role in UserRole)
-            {
-                ClaimAuth.Add(new Claim( ClaimTypes.Role, Role));
-            }
-
+            //var UserRole = await userManager.GetRolesAsync(user);
+            //foreach (var Role in UserRole)
+            //{
+            //    ClaimAuth.Add(new Claim( ClaimTypes.Role, Role.ToString));
+            //}
+            ClaimAuth.Add(new Claim(ClaimTypes.Role, user.Role.ToString()));
             var AuthKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JWT:Key"]));
             var Token = new JwtSecurityToken (
                 issuer: _configuration["JWT:ValidIssuer"],

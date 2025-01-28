@@ -14,7 +14,7 @@ namespace CoreLayer_BlogSystem.Entities
         //o Content
         public string Content { get; set; }
         //o CreatedAt
-        public DateTime CreateAt { get; set; }
+        public DateTime CreateAt { get; set; } = DateTime.Now;
         //o PostId(Foreign Key referencing BlogPost)
         public BlogPost Post { get; set; }
         public int PostId { get; set; }

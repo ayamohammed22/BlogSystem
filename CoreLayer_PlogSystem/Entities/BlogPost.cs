@@ -22,7 +22,7 @@ namespace CoreLayer_BlogSystem.Entities
         public AppUser Author { get; set; }
         public string AuthorId { get; set; }
         //o CreatedAt
-        public DateTime CreatedAt { get; set; }
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
         //o UpdatedAt
         public DateTime UpdateAt { get; set; }
         //o Status(Published, Draft, Archived)

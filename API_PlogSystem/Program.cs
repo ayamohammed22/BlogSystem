@@ -1,4 +1,5 @@
 
+using API_BlogSystem.Extensions;
 using CoreLayer_BlogSystem.Entities.Identity;
 using CoreLayer_BlogSystem.Services;
 using Microsoft.AspNetCore.Identity;
@@ -26,10 +27,15 @@ namespace API_PlogSystem
             builder.Services.AddDbContext<Context> (options =>
                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))) ;
 
-            builder.Services.AddIdentity<AppUser, IdentityRole>()
-                    .AddEntityFrameworkStores<Context>()
-                    .AddDefaultTokenProviders();
-            builder.Services.AddScoped<ITokenServices, TokenServices>();
+            builder.Services.AppApplicationServer();
+            builder.Services.IdentityServices(builder.Configuration);
+
+            builder.Services.AddLogging(logging =>
+            {
+                logging.AddConsole();
+                logging.AddDebug();
+            });
+
             var app = builder.Build();
 
             using  var scope = app.Services.CreateScope();

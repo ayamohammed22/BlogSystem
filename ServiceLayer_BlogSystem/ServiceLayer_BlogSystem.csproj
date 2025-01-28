@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CoreLayer_PlogSystem\CoreLayer_BlogSystem.csproj" />
+    <ProjectReference Include="..\RepositaryLayer_BlogSystem\RepositaryLayer_BlogSystem.csproj" />
   </ItemGroup>
 
 </Project>
