@@ -1,7 +1,7 @@
 # Blog System with Role-based Authentication
 
 ## 📌 Project Overview
-The **Blog System** is a web application that allows users to create, manage, and comment on blog posts. It includes role-based authentication, supporting **Admins, Editors, and Readers**, each with specific permissions.
+The **Blog System**  allows users to create, manage, and comment on blog posts. It includes role-based authentication, supporting **Admins, Editors, and Readers**, each with specific permissions.
 
 ## 🚀 Features
 - **User Authentication & Role Management** (Admin, Editor, Reader)
@@ -20,39 +20,12 @@ The **Blog System** is a web application that allows users to create, manage, an
 ## 📂 Project Structure
 ```
 📦 BlogSystem
- ┣ 📂 Application (Business Logic Layer)
- ┣ 📂 Domain (Entities & Interfaces)
- ┣ 📂 Infrastructure (Repositories & Database Context)
+ ┣ 📂 Service (Business Logic Layer)
+ ┣ 📂 Core (Entities & Interfaces)
+ ┣ 📂 Repository (Repositories & Database Context)
  ┣ 📂 API (Controllers & Endpoints)
- ┣ 📂 UI (MVC Views & Components)
  ┣ 📜 README.md (Project Documentation)
 ```
-
-## ⚙️ Installation & Setup
-### 1️⃣ Clone the Repository
-```sh
-git clone https://github.com/yourusername/BlogSystem.git
-cd BlogSystem
-```
-
-### 2️⃣ Configure Database
-- Update the connection string in `appsettings.json`:
-```json
-"ConnectionStrings": {
-  "DefaultConnection": "Server=YOUR_SERVER;Database=BlogDB;Trusted_Connection=True;"
-}
-```
-
-- Run EF Core Migrations:
-```sh
-dotnet ef database update
-```
-
-### 3️⃣ Run the Application
-```sh
-dotnet run
-```
-The API will be available at `http://localhost:5000/api/`
 
 ## 🔗 API Endpoints
 ### Authentication
